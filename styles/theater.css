@@ -1,0 +1,21 @@
+header {
+    color: rgb(134, 3, 68);
+    background-color:darkgrey;
+}
+nav {
+    background-color:hotpink
+}
+main {
+    background-color: lightpink;
+    color: rgb(134, 3, 68);
+}
+ul{
+    background-color: antiquewhite;
+}
+li{
+    color: rgb(134, 3, 68);
+}
+footer{
+    color: rgb(134, 3, 68);
+    background-color: antiquewhite;
+}

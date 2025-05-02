@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background-color:pink; 
+}
+
+h1,h2,h3 {
+    color: deeppink ;
+}
+
+.stew-content {
+    background-color:#fffec1;
+    width: 700px;
+    padding: 10px;
+    margin:auto;
+}
+
+footer {
+    clear:both;
+    background-color:deeppink;
+    color:white;
+padding-top: 7px;
+padding-bottom: 7px;
+padding-left: 5px;
+}
