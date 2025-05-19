@@ -1,0 +1,28 @@
+            .loki {
+                background-color: gray;
+                width: 700px;
+                padding: 7px;
+                margin: 5px;
+                float: left;
+            }
+
+            .leroy {
+                display:inline-block;
+                color:white;
+                vertical-align:top;
+                margin-left: 5px;
+            }
+.clear {
+    clear:both;
+}
+.leo {
+    background-color: lightgray;
+    padding:0px 5px 5px 0px;
+}
+.leo img {
+    vertical=align: top;
+    margin: 10px 5px 3px 6px;
+}
+h1 {
+    font-family: "Montserrat", sans-serif;
+}

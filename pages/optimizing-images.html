@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Optimizing Images</title>
+        <link href="../styles/optimizing.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Special+Elite&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="nav-placeholder"></div>
+        <script>
+            fetch('nav.html')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('nav-placeholder').innerHTML = data;
+            });
+        </script>
+        <h1>Optimizing Images</h1>
+        <article class="loki">
+            <img scr="../images/80.jpg" alt="80% jpg sample" height="500px">
+            <section class="leroy"><p>80% JPG - 77k<br>The quality is very good</p>
+            </section>
+        </article>
+        <article class="loki">
+            <img src="../images/40.jpg" alt="40% jpg sample" height="500px">
+            <section class="leroy"><p>40% JPG - 25k<br>The quality is medium low</p>
+            </section>
+        </article>
+        <article class="loki">
+            <img src="../images/256.gif" alt="256 color gif sample" height="500px">
+            <section class="leroy"><p>256 color GIF - 125k<br>Medium Quality</p>
+            </section>
+        </article>
+        <article class="loki">
+            <img src="../images/64.gif" alt="64 color gif" height="500px">
+            <section class="leroy"><p>64 color GIF - 82k<br>The quality was low</p>
+            </section>
+        </article>
+        <article class="loki">
+            <img src="../images/8.gif" alt="8 color gif sample" height="500px">
+            <section class="leroy"><p>8 color GIF<br>The quality is very low</p>
+            </section>
+        </article>
+        <article class="loki">
+            <img src="../images/24.png" alt="24 png sample" height="500px">
+            <section class="leroy"><p>24 PNG - 282k<br>The quality is really good</p>
+            </section>
+        </article>
+        <div class="clear"></div>
+        <article class="leo">
+            <img src="../images/1.jpg" alt="sample image" width="400px">
+            <img src="../images/2.jpg" alt="sample image" width="400px">
+            <img src="../images/3.jpg" alt="sample image" width="400px">
+            <img src="../images/4.jpg" alt="sample image" width="400px">
+            <img src="../images/5.jpg" alt="sample image" width="400px">
+            <img src="../images/6.jpg" alt="sample image" width="400px">
+            <img src="../images/7.jpg" alt="sample image" width="400px">
+            <img src="../images/8pt2.jpg" alt="sample image" width="400px">
+            <img src="../images/9.jpg" alt="sample image" width="400px">
+            <img src="../images/10.jpg" alt="sample image" width="400px">
+        </article>
+    </body>
+</html>
