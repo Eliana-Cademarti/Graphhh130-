@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* structural css */
+.oly-wrap, .oly-row {
+    display:flex;
+}
+
+.oly-column {
+    flex:1;
+}
+
+.oly-content{
+    flex:2;
+}
+
+.oly-sidebar {
+    flex:.5;
+}
+
+/* css styles*/
+.oly-container{
+    width:80%;
+    margin:auto;
+}
+
+header, .oly-content, .oly-sidebar {
+    padding:15px;
+}
+
