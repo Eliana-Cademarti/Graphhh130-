@@ -60,7 +60,7 @@ nav a:hover {
 }
 
 figure {
-    margin-left:0px;
+    margin:0px;
 }
 
 figcaption {
@@ -114,6 +114,11 @@ h1 {
 }
 
 h1,h2,h3 {
+    padding:0;
     padding-left:1.4em;
     font-family: 'Special Elite', cursive;
+}
+
+h2 {
+    margin-left:15px;
 }
